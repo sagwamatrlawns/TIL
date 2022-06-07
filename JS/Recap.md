@@ -40,10 +40,15 @@ const자체를 변경하는 것이 아닌 objects의 값을 변경하는 것이�
 **🍌object(객체)**<br>
 객체란 여러 속성을 하나의 변수에 자장할 수 있도록 해주는 데이터 타입이다.<br>
 선언예시)
-const player = {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: "KJ",<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;age: 98,<br>
+```js
+const player = {
+  name: "KJ",
+  age: 98,
 };
-
+```
+<br>
 **🍉function** <br>
 function이란 코드를 캡슐화 해서 계속 반복해서 사용할 수 있도록 만들어 주는 것이다.
+
+**🍇local storage** <br>
+브라우저에 뭔가를 저장할 수 있게 해준다. 그래서 나중에 가져다가 사용 가능
