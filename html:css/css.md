@@ -4,6 +4,7 @@
 
 1. margin
    마진은 여백을 뜻하는 테그로 lift. right, bottom, top 4가지 방향으로 여백을 넣어줄 수 있다.
+
 2. 가운데 정렬은<br>
    display : block;<br>
    margin-left: auto;<br>
@@ -49,7 +50,12 @@
 
 4. 일부만 스타일 적용<br>
    span : 아무의미 없이 감쌀 수 있는 테그<br>
+
    ```html
    //에시 // 사과 부분만 red 컬러로 변경
    <p><span styel="color: red">사과</span>는 맛있다.</p>
    ```
+
+5. Margin과 Padding의 차이점<br>
+   마진은 보더를 기준으로 컨텐츠의 바깥쪽에 위친한 여백<br>
+   패딩은 컨텐츠 안쪽의 여백을 의미한다.
