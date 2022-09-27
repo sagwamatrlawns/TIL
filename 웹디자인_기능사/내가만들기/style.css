@@ -27,3 +27,12 @@
   border: 1px solid white;
   color: white;
 }
+
+.banner {
+  width: 100%;
+  display: flex;
+}
+
+.banner img {
+  height: 300px;
+}
